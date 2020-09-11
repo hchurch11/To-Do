@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="javascript" type="javascript" href="/To-Do/index.js">
+    <title>To-Do List</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<section class="container">
+    <div class="heading">
+        <img src="/Users/heather/Coding-Projects/To-Do/images/transparent-checkbox-png.jpg">
+        <h2>To-Do List</h2>
+    </div>
+    <form class="form">
+        <div>
+            <label class="formLabel" for="todo"> Today I need to ~</label>
+            <input class="formInput" type="text" id="todo" name="to-do" size="30" required>
+            <button class="button"><span>Add ToDo</span></button>
+        </div>
+    </form>
+    <div>
+        <ul class="toDoList">
+        </ul>
+    </div>
+    <h2>Todo</h2>
+    <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Pay Mortgge</label><input type="text"><button
+                class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label></label><input type="text"><button
+                class="edit">Edit</button><button class="delete">Delete</button></li>
+
+    </ul>
+
+    <h2>Completed</h2>
+    <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label></label><input type="text"><button class="edit">Edit</button><button
+                class="delete">Delete</button></li>
+    </ul>
+    </div>
+
+</section>
